@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Ar/ZbYr/HaPJ9iCjHcuOHn9aUrDq1o4CyCJ8iRbhT6y3DjzPsZj8X4Zg46A3doYz3iAcPUL4FuJFCmQSDgMC7Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Cows and Bulls Game</title>
+</head>
+
+<body>
+  <header>
+    <h1>Cows and Bulls Game</h1>
+  </header>
+
+  <main>
+    <section id="game-section">
+      <h2>Guess the Number</h2>
+      <input type="number" id="guess-input" min="1000" max="9999" placeholder="Enter a four-digit number">
+      <div class="button-group">
+        <button id="guess-button">Guess</button>
+        <button id="give-up-button">Give Up</button>
+      </div>
+      <p id="result-text"></p>
+      <p id="congrats-message"></p>
+    </section>
+
+    <section id="instructions-section">
+      <h2>Instructions</h2>
+      <p>Try to guess the four-digit number. For each correct digit in the correct position, you'll get a "bull," and for each correct digit in the wrong position, you'll get a "cow."</p>
+    </section>
+
+    <section id="attempts-section">
+      <h2>Attempts</h2>
+      <ul id="attempts-list"></ul>
+    </section>
+  </main>
+
+  <script src="https://kit.fontawesome.com/3b98406974.js" crossorigin="anonymous"></script>
+  <footer>
+    <p>Created by  
+      <a href="https://github.com/harshithvulisetti" class="tag">harshithvulisetti</a>
+    </p>
+    <div class="social-media-icons">
+      <a href="https://github.com/harshithvulisetti" target="_blank"><i class="fab fa-github"></i></a>&nbsp;&nbsp;
+      <a href="https://www.facebook.com/vulisetti.harshith/" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;
+      <a href="https://www.instagram.com/harshith_vulisetti_/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/harshith-vulisetti-0b1283210/" target="_blank"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;
+      <a href="mailto:vulisettiharshith@gmail.com" target="_blank"><i class="fab fa-google-plus"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

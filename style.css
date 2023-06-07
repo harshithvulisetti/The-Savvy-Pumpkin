@@ -1,0 +1,191 @@
+/* Reset Styles */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f8fa;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  /* Typography */
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: 625;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #24292e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Layout */
+  
+  header {
+    background-color: #24292e;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #game-section {
+    text-align: center;
+  }
+  
+  #guess-input {
+    padding: 10px;
+    width: 150px;
+    margin: 0 auto 10px auto;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    display: block;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: darkgreen;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  #result-text {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #congrats-message {
+    color: #22863a;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #attempts-section {
+    margin-top: 30px;
+  }
+  
+  #attempts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #attempts-list li {
+    margin-bottom: 5px;
+    color: #586069;
+    font-size: 14px;
+  }
+  
+  footer {
+    background-color: #24292e;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    #guess-input {
+      width: 100%;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  }
+  .tag{
+    color: white;
+    text-decoration: none;
+  }
+  .tag:hover{
+    color: grey;
+  }
+
+  .class1 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .class1 a {
+    margin: 0 5px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .class1 a:hover {
+    color: grey;
+  }
+
+  .class2 {
+    align-items: center;
+    border-radius: 10%;
+  }
+  .class2 a {
+    margin: 0 5px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  .class2:hover{
+    background-color: #24292e;
+  }
+  .class3{
+    display: flex;
+    align-items: center;
+  }

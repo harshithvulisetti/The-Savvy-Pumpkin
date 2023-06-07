@@ -1,0 +1,61 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+table {
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+td:hover {
+    background-color: #f2f2f2;
+}
+.player1 {
+    background-color: lightblue;
+}
+.player2 {
+    background-color: lightgreen;
+}
+.animate-scale {
+    animation: scaleAnimation 0.2s;
+}
+@keyframes scaleAnimation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+#scoreboard {
+    margin-top: 20px;
+    text-align: center;
+}
+#scoreboard p {
+    margin: 5px;
+}
+#currentPlayerIndicator {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.selected {
+    background-color: #ffdd57 !important;
+}
+.word-found {
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
